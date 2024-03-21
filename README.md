@@ -1,7 +1,17 @@
-<h1> Ola sou Lucas Heitor </h1> <br>
-<l>Estudante na área de tecnologia.💻</l> <br>
-<l>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</l> <br>
-<l>Curso Superior de Tecnologia (CST) Gestão Ambiental (2014 a 2016)🌱</l> <br>
+<h1> Olá pessoal meu nome é Lucas</h1> <br>
+<li>Estudante na área de tecnologia.💻</li> <br>
+<li>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</li> <br>
+<li>Curso Superior de Tecnologia (CST) Gestão Ambiental (2014 a 2016)🌱</li> <br>
+
+<l>Aprendendo no Curso</l>
+
+![images](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/b156261d-1d63-4fdd-a487-c1e7a984df1d)
+![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/6659b90c-5bc7-4a85-9698-e71802e4422a)
+![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/d2878513-cdd5-451b-ad77-315a0e1852ad)<br>
+
+<li>📫Contatos</li><br>
+<li>-Email: luck_wyd@hotmail.com</li>
+
 
 <!--
 **LucasHeitor94/LucasHeitor94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
