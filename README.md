@@ -1,4 +1,4 @@
-<h1> Olá pessoal meu nome é Lucas</h1> <br>
+<h1> Olá meu nome é Lucas</h1> <br>
 <li>Estudante na área de tecnologia.💻</li> <br>
 <li>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</li> <br>
 <li>Curso Superior de Tecnologia (CST) Gestão Ambiental (2014 a 2016)🌱</li> <br>
