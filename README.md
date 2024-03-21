@@ -3,14 +3,14 @@
 <li>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</li> <br>
 <li>Curso Superior de Tecnologia (CST) Gestão Ambiental (2014 a 2016)🌱</li> <br>
 
-<l>Aprendendo no Curso</l>
+<h2>Aprendendo no Curso</h2><br>
 
-![images](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/b156261d-1d63-4fdd-a487-c1e7a984df1d)
-![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/6659b90c-5bc7-4a85-9698-e71802e4422a)
-![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/d2878513-cdd5-451b-ad77-315a0e1852ad)<br>
+link![images](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/b156261d-1d63-4fdd-a487-c1e7a984df1d)
+link![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/6659b90c-5bc7-4a85-9698-e71802e4422a)
+link![download](https://github.com/LucasHeitor94/LucasHeitor94/assets/164229485/d2878513-cdd5-451b-ad77-315a0e1852ad)<br>
 
-<li>📫Contatos</li><br>
-<li>-Email: luck_wyd@hotmail.com</li>
+<li>📫Contatos</li>
+<l>-Email: luck_wyd@hotmail.com</l>
 
 
 <!--
