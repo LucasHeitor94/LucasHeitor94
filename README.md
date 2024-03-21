@@ -1,7 +1,7 @@
 <h1> Ola sou Lucas Heitor </h1> <br>
-<l>Estudante na área de tecnologia.💻</l>
-<l>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</l>
-<l>Curso Superior de Tecnologia (CST) Gestão Ambiental🌱</l>
+<l>Estudante na área de tecnologia.💻</l> <br>
+<l>Cursando o Curso Técnico de Informática na instituição Senac-BR.👨‍💻</l> <br>
+<l>Curso Superior de Tecnologia (CST) Gestão Ambiental (2014 a 2016)🌱</l> <br>
 
 <!--
 **LucasHeitor94/LucasHeitor94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
