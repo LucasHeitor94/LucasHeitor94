@@ -1,4 +1,7 @@
-<h1> Ola sou Lucas </h1>
+<h1> Ola sou Lucas </h1> <br>
+Estudante na área de tecnologia, cursando Curso Técnico de Informática na instituição Senac-BR.
+
+
 
 <!--
 **LucasHeitor94/LucasHeitor94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
