@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso técnico- bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="curso.css">
+</head>
+<body>
+      <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logotsf.png" alt="Logo Curso">
+          </a>
+          <h1>TRANSFORME SEU FUTURO!</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--MENU CURSO-->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MENU
+            </button>
+            <ul class="dropdown-menu">
+
+              <li><a href="#quemsomos"><button class="dropdown-item" type="button">Quem Somos</button></a></li>
+              <li><a href="#cursos"><button class="dropdown-item" type="button">Cursos</button></a></li>
+              <li><a href="#profissionais"><button class="dropdown-item" type="button">Profissionais</button></a></li>
+              <li><a href="#contato"><button class="dropdown-item" type="button">Contato</button></a></li>
+            </ul>
+          </div>
+          </nav>
+        </header>
+
+          <main>
+
+          <!--CARROUSSEL-->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div></div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/informatica.avif" class="d-block w-100" alt="informatica">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Técnico em Informática</h5>
+                  <p>Alavanque o seu conhecimento na área da tecnologia.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/mecanica.avif" class="d-block w-100" alt="mecanica">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Técnico em Mecânica</h5>
+                  <p>Consiga uma vaga no mercado te trabalho na área de mecânica!</p>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/logistica.avif" class="d-block w-100" alt="logistica">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Técnico em Logística</h5>
+                  <p>Impulcione seus conhecimentos, e garanta uma boa vaga na área de Logística.</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+          <!----------QUEM SOMOS---------------->
+
+          <section id="quemsomos">
+            <div class="card text-bg-dark">
+                <img src="img/quem.avif" class="card-img opacity-50" alt="Quem somos nós">
+                <div class="card-img-overlay">
+                  <h5 class="card-title text-center fw-bold">QUEM SOMOS NÓS.</h5>
+                  <p class="card-text text-uppercase fw-bolder">O "TSF" iniciou suas atividades em 1995 em Londrina. Somos uma instituição comprometida com a qualidade e com a formação profissional de alunos e colaboradores em várias áreas, buscando qualificar profissionais para melhorar a realidade dos trabalhadores e das empresas.</p>
+                  <p class="card-text text-uppercase fw-bolder">Nossos valores são o comprometimento com o aprendizado do aluno, sintonia com a realidade das empresas e o dinamismo do mercado, qualidade em todas as nossas ações, seriedade e ética em todas as nossas relações.<br><br>Nossa missão é nosso aluno conquistar posições de destaque no mercado de trabalho.</p>
+                </div>
+              </div>
+          </section>          
+
+          <!------------CURSOS---------------->
+
+          <section id="cursos" class="pt-3 pb-3">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/informaticaCard.avif" class="card-img-top" alt="curso 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Técnico em Informática</h5>
+                      <p class="card-text">Aprenda a parte de hardware, montagem de computadores, sistemas operacionais, redes, banco de dados, programação, etc.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Tempo de curso: 3 anos<br>Valor: R$3.500</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/mecanicaCard.avif" class="card-img-top" alt="curso 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Técnico em Mecânica</h5>
+                      <p class="card-text">O curso técnico de mecânica tem como objetivo formar profissionais aptos para atuar no controle e desenvolvimento de projetos, processos de produção mecânica, realização de manutenção de equipamentos e máquinas, seguindo normas e padrões de qualidade e de segurança do trabalho.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Tempo de curso: 2 anos<br>Valor: R$2.500 </small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/logisticaCard.avif" class="card-img-top" alt="curso 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Técnico em Logística</h5>
+                      <p class="card-text">Você vai aprender competências de apoio ao planejamento e ao gerenciamento das instalações e das operações da cadeia de logística no âmbito das organizações, buscando a redução de custos e melhorando a qualidade dos processos logísticos de armazenagem, transporte e distribuição de produtos.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Tempo de curso: 1 ano<br>Valor: R$1.500</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>          
+
+          <!----------PROFISSIONAIS---------------->
+
+          <section id="profissionais">
+            <div class="card-group">
+              <div class="card">
+                <img src="img/profInformatica.avif" class="card-img-top" alt="profissional 1">
+                <div class="card-body">
+                  <h5 class="card-title">Prof. Mauricio H. Silva</h5>
+                  <p class="card-text">Bacharel em ciência da computação e tecnologia da informação pela UEL.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Profissional da TSF a 6 anos.</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/profMecanica.avif" class="card-img-top" alt="profissional 2">
+                <div class="card-body">
+                  <h5 class="card-title">Prof. Lorenzo M. Menezes</h5>
+                  <p class="card-text">Formado em Engenharia Mecânica pela USP.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Profissional da TSF a 5 anos.</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/profLogistica.avif" class="card-img-top" alt="profissional 3">
+                <div class="card-body">
+                  <h5 class="card-title">Prof. Simone M. Gonçalves</h5>
+                  <p class="card-text">Bacharel em Logística pela UFBA.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Profissional da TSF a 3 anos.</small>
+                </div>
+              </div>
+            </div>
+          </section>          
+
+          <!----------FORMULARIO/MAPA/CONTATO---------------->
+
+          <section id="contato">
+            <h1>Entre em contato conosco mandando sua dúvida ou pergunta.</h1>
+            <br>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Escreva sua dúvida ou pergunta</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>              
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <br><br>
+            <div class="mx-auto p-2">           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117241.42994114413!2d-51.22349006239416!3d-23.323206956554294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435d5b264775%3A0xfd3a2c2dc9f2232f!2sSenac%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1712946365744!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </section>
+</main>
+</body>
+</html>
